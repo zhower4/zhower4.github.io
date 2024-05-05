@@ -1,4 +1,5 @@
 #### UBG - Zhowers Unblocked Games List
+%%html
 <style>
     .blue {
         background-color: #0074D9;
