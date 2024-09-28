@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerGams</title>
-	<link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
     <style>
         body {
             background-color: gray;
@@ -27,11 +27,12 @@
         ul {
             list-style-type: none;
             padding: 0;
+            display: flex; /* Make the list items horizontal */
+            flex-wrap: wrap; /* Allow wrapping to the next line */
         }
         ul li {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
+            margin: 10px; /* Space between items */
+            width: calc(33.33% - 20px); /* Adjust width for 3 items per row */
         }
         ul li img {
             max-width: 50px;
@@ -61,48 +62,47 @@
 
         <h2>Video Game Websites:</h2>
         <ul>
-<li><a href="https://www.coolmathgames.com/" target="_blank">Cool Math Games</a></li>
-<li><a href="https://coolubg.github.io/" target="_blank">Cool Unblocked Games</a></li>
-<li><a href="https://ubg100.github.io/" target="_blank">UBG 100</a></li>
-<li><a href="https://www.kongregate.com/" target="_blank">Kongregate</a></li>
-<li><a href="https://www.poki.com/" target="_blank">Poki</a></li>
-<li><a href="https://www.miniclip.com/" target="_blank">Miniclip</a></li>
-<li><a href="https://www.armorgames.com/" target="_blank">Armor Games</a></li>
-<li><a href="https://www.agame.com/" target="_blank">Agame</a></li>
-<li><a href="https://www.nitrome.com/" target="_blank">Nitrome</a></li>
-<li><a href="https://www.newgrounds.com/" target="_blank">Newgrounds</a></li>
-<li><a href="https://www.addictinggames.com/" target="_blank">Addicting Games</a></li>
-<li><a href="https://www.gamesgames.com/" target="_blank">GamesGames</a></li>
-<li><a href="https://www.y8.com/" target="_blank">Y8</a></li>
-<li><a href="https://www.gamedistribution.com/" target="_blank">Game Distribution</a></li>
-<li><a href="https://www.supergames.com/" target="_blank">SuperGames</a></li>
-<li><a href="https://www.funbrain.com/" target="_blank">Funbrain</a></li>
-<li><a href="https://www.flashgames247.com/" target="_blank">Flash Games 247</a></li>
-<li><a href="https://www.thekoolaid.com/" target="_blank">The Kool Aid</a></li>
-<li><a href="https://www.spilgames.com/" target="_blank">Spil Games</a></li>
-<li><a href="https://www.gogames.io/" target="_blank">Go Games</a></li>
-<li><a href="https://www.ezgames.com/" target="_blank">EZ Games</a></li>
-<li><a href="https://www.gamemonetize.com/" target="_blank">Game Monetize</a></li>
-<li><a href="https://www.freeonlinegames.com/" target="_blank">Free Online Games</a></li>
-<li><a href="https://www.dreamsquadgames.com/" target="_blank">Dream Squad Games</a></li>
-<li><a href="https://www.silvergames.com/" target="_blank">Silvergames</a></li>
-<li><a href="https://www.jogos.com/" target="_blank">Jogos</a></li>
-<li><a href="https://www.games.lol/" target="_blank">Games.lol</a></li>
-<li><a href="https://www.playretrogames.com/" target="_blank">Play Retro Games</a></li>
-<li><a href="https://www.bored.com/" target="_blank">Bored.com</a></li>
-<li><a href="https://www.playr.org/" target="_blank">Playr</a></li>
-<li><a href="https://www.joylandgames.com/" target="_blank">Joyland Games</a></li>
-<li><a href="https://www.gamedome.com/" target="_blank">GameDome</a></li>
-<li><a href="https://www.gaminghog.com/" target="_blank">Gaming Hog</a></li>
-<li><a href="https://www.puzzlegames.com/" target="_blank">Puzzle Games</a></li>
-<li><a href="https://www.funnygames.org/" target="_blank">Funny Games</a></li>
-<li><a href="https://www.coolmath4kids.com/" target="_blank">Cool Math 4 Kids</a></li>
-<li><a href="https://www.nike.com/games/" target="_blank">Nike Games</a></li>
-<li><a href="https://www.crazygames.com/" target="_blank">Crazy Games</a></li>
-<li><a href="https://www.doodoo.io/" target="_blank">Doodoo.io</a></li>
-<li><a href="https://www.gamershood.com/" target="_blank">Gamershood</a></li>
-<li><a href="https://www.kids-games.net/" target="_blank">Kids Games</a></li>
-
+            <li><a href="https://www.coolmathgames.com/" target="_blank">Cool Math Games</a></li>
+            <li><a href="https://coolubg.github.io/" target="_blank">Cool Unblocked Games</a></li>
+            <li><a href="https://ubg100.github.io/" target="_blank">UBG 100</a></li>
+            <li><a href="https://www.kongregate.com/" target="_blank">Kongregate</a></li>
+            <li><a href="https://www.poki.com/" target="_blank">Poki</a></li>
+            <li><a href="https://www.miniclip.com/" target="_blank">Miniclip</a></li>
+            <li><a href="https://www.armorgames.com/" target="_blank">Armor Games</a></li>
+            <li><a href="https://www.agame.com/" target="_blank">Agame</a></li>
+            <li><a href="https://www.nitrome.com/" target="_blank">Nitrome</a></li>
+            <li><a href="https://www.newgrounds.com/" target="_blank">Newgrounds</a></li>
+            <li><a href="https://www.addictinggames.com/" target="_blank">Addicting Games</a></li>
+            <li><a href="https://www.gamesgames.com/" target="_blank">GamesGames</a></li>
+            <li><a href="https://www.y8.com/" target="_blank">Y8</a></li>
+            <li><a href="https://www.gamedistribution.com/" target="_blank">Game Distribution</a></li>
+            <li><a href="https://www.supergames.com/" target="_blank">SuperGames</a></li>
+            <li><a href="https://www.funbrain.com/" target="_blank">Funbrain</a></li>
+            <li><a href="https://www.flashgames247.com/" target="_blank">Flash Games 247</a></li>
+            <li><a href="https://www.thekoolaid.com/" target="_blank">The Kool Aid</a></li>
+            <li><a href="https://www.spilgames.com/" target="_blank">Spil Games</a></li>
+            <li><a href="https://www.gogames.io/" target="_blank">Go Games</a></li>
+            <li><a href="https://www.ezgames.com/" target="_blank">EZ Games</a></li>
+            <li><a href="https://www.gamemonetize.com/" target="_blank">Game Monetize</a></li>
+            <li><a href="https://www.freeonlinegames.com/" target="_blank">Free Online Games</a></li>
+            <li><a href="https://www.dreamsquadgames.com/" target="_blank">Dream Squad Games</a></li>
+            <li><a href="https://www.silvergames.com/" target="_blank">Silvergames</a></li>
+            <li><a href="https://www.jogos.com/" target="_blank">Jogos</a></li>
+            <li><a href="https://www.games.lol/" target="_blank">Games.lol</a></li>
+            <li><a href="https://www.playretrogames.com/" target="_blank">Play Retro Games</a></li>
+            <li><a href="https://www.bored.com/" target="_blank">Bored.com</a></li>
+            <li><a href="https://www.playr.org/" target="_blank">Playr</a></li>
+            <li><a href="https://www.joylandgames.com/" target="_blank">Joyland Games</a></li>
+            <li><a href="https://www.gamedome.com/" target="_blank">GameDome</a></li>
+            <li><a href="https://www.gaminghog.com/" target="_blank">Gaming Hog</a></li>
+            <li><a href="https://www.puzzlegames.com/" target="_blank">Puzzle Games</a></li>
+            <li><a href="https://www.funnygames.org/" target="_blank">Funny Games</a></li>
+            <li><a href="https://www.coolmath4kids.com/" target="_blank">Cool Math 4 Kids</a></li>
+            <li><a href="https://www.nike.com/games/" target="_blank">Nike Games</a></li>
+            <li><a href="https://www.crazygames.com/" target="_blank">Crazy Games</a></li>
+            <li><a href="https://www.doodoo.io/" target="_blank">Doodoo.io</a></li>
+            <li><a href="https://www.gamershood.com/" target="_blank">Gamershood</a></li>
+            <li><a href="https://www.kids-games.net/" target="_blank">Kids Games</a></li>
         </ul>
 
         <h2>Video Game Resources:</h2>
@@ -111,7 +111,6 @@
                 <img src="https://seeklogo.com/images/I/ign-logo-4A32DEDED6-seeklogo.com.png" alt="IGN Logo">
                 <a href="https://www.ign.com" target="_blank">IGN</a> - News, reviews, and gaming information.
             </li>
-
             <li>
                 <img src="https://yt3.googleusercontent.com/xCGy9LhmIbBUOqzljMEaa3nkgtueaU7EIKC3N2emc7abyzUUc1elaV0Es2vDJtRjH8eZDNZ2Tg=s176-c-k-c0x00ffffff-no-rj-mo" alt="Polygon Logo">
                 <a href="https://www.polygon.com" target="_blank">Polygon</a> - Gaming news, culture, and reviews.
